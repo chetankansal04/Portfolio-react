@@ -5,7 +5,8 @@ const Resume = () => {
     <div className="place-self-center">
       <img
         className="scale-110 m-16 max-h-screen mr-10"
-        src={"public/static/images/Chetan_Kansal_Resume-1.png"}
+        src="public/static/images/Chetan_Kansal_Resume-1.png"
+        alt="Chetan Kansal Resume"
       ></img>
     </div>
   );

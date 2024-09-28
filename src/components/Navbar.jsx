@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to="/">
           <img
             className="transition-transform duration-300 hover:scale-110 object-fill w-12 h-12 rounded-full mr-10"
-            src={"public/static/images/IMG_3176.png"}
+            src="public/static/images/IMG_3176.png"
             alt="profilepicture"
           ></img>
         </Link>
