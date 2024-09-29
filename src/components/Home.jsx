@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex max-w-screen flex-col items-center">
       <img
         className="transition-transform duration-300 hover:scale-110 object-fill w-32 h-32 rounded-full mb-5"
         src="images/IMG_3176.png"
