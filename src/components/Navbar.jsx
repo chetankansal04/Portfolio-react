@@ -49,6 +49,12 @@ const Navbar = () => {
               onClick={handleMenuButton}
               className="block transition-transform duration-300 hover:scale-110"
             >
+              <Link to="/">Home</Link>
+            </button>
+            <button
+              onClick={handleMenuButton}
+              className="block transition-transform duration-300 hover:scale-110"
+            >
               <Link to="/about">About</Link>
             </button>
             <button
