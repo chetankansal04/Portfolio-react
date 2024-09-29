@@ -4,22 +4,19 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="flex max-w-screen flex-col items-center">
+    <div className="flex flex-col items-center mx-10 my-10 md:my-0">
       <img
         className="transition-transform duration-300 hover:scale-110 object-fill w-32 h-32 rounded-full mb-5"
         src="images/IMG_3176.png"
         alt="profilepicture"
       ></img>
-      <h2 className="text-3xl font-semibold mb-5">Java Full Stack Developer</h2>
-      <center>
-        <p className="text-l font-normal pb-5">
+      <p className="md:text-3xl text-xl font-bold mb-5">Java Full Stack Developer</p>
+        <p className="md:text-lg text-base font-normal pb-5 w-1/2">
           Hi, I'm Chetan, a final year CSE student passionate about Java
           Development 🧑‍💻
-          <br />
           I enjoy turning ideas into real-life projects. I am currently seeking
-          opportunities to <br /> work on challenging projects and learn new
+          opportunities to work on challenging projects and learn new
           technologies 😀
-          <br />
         </p>
         <div className="flex justify-center scale-150">
           <a
@@ -49,7 +46,6 @@ const Home = () => {
             <FaXTwitter />
           </a>
         </div>
-      </center>
     </div>
   );
 };
