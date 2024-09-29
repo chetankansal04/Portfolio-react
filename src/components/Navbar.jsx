@@ -15,7 +15,7 @@ const Navbar = () => {
       {location.pathname !== "/" && (
         <Link to="/">
           <img
-            className="transition-transform duration-300 hover:scale-110 object-fill w-12 h-12 rounded-full mr-10"
+            className="hidden md:flex transition-transform duration-300 hover:scale-110 object-fill w-12 h-12 rounded-full mr-10"
             src="/images/IMG_3176.png"
             alt="profilepicture"
           ></img>
@@ -45,16 +45,28 @@ const Navbar = () => {
         </div>
         {isOpen && (
           <div className="scale-110 fixed top-12 bg-white shadow-md p-3 rounded-md text-md font-bold">
-            <button className="block transition-transform duration-300 hover:scale-110">
+            <button
+              onClick={handleMenuButton}
+              className="block transition-transform duration-300 hover:scale-110"
+            >
               <Link to="/about">About</Link>
             </button>
-            <button className="block transition-transform duration-300 hover:scale-110">
+            <button
+              onClick={handleMenuButton}
+              className="block transition-transform duration-300 hover:scale-110"
+            >
               <Link to="/project">Projects</Link>
             </button>
-            <button className="block transition-transform duration-300 hover:scale-110">
+            <button
+              onClick={handleMenuButton}
+              className="block transition-transform duration-300 hover:scale-110"
+            >
               <Link to="/resume">Resume</Link>
             </button>
-            <button className="block transition-transform duration-300 hover:scale-110">
+            <button
+              onClick={handleMenuButton}
+              className="block transition-transform duration-300 hover:scale-110"
+            >
               <Link to="/contact">Contact Me</Link>
             </button>
           </div>
