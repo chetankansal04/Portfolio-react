@@ -17,7 +17,7 @@ const About = () => {
       </p>
       <div className="flex">
       <Card
-        img="public/static/images/download.jpg"
+        img="/images/download.jpg"
         title="Raj Kumar Institute of Technology"
         content="Bachelor of Technology"
         field="Computer Science & Engineering - 7.0"
@@ -27,7 +27,7 @@ const About = () => {
         urlLink="https://rkgit.edu.in/"
       ></Card>
       <Card
-        img="public/static/images/svm.jpg"
+        img="/images/svm.jpg"
         title="D.H.T. Sarawati Vidya Mandir"
         content="Xll"
         field="76 % "

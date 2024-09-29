@@ -7,7 +7,7 @@ const Home = () => {
     <div className="flex flex-col items-center">
       <img
         className="transition-transform duration-300 hover:scale-110 object-fill w-32 h-32 rounded-full mb-5"
-        src="public/static/images/IMG_3176.png"
+        src="images/IMG_3176.png"
         alt="profilepicture"
       ></img>
       <h2 className="text-3xl font-semibold mb-5">Java Full Stack Developer</h2>
