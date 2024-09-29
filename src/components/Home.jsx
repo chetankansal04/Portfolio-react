@@ -11,7 +11,7 @@ const Home = () => {
         alt="profilepicture"
       ></img>
       <p className="md:text-3xl text-xl font-bold mb-5">Java Full Stack Developer</p>
-        <p className="md:text-lg text-base font-normal pb-5 w-1/2">
+        <p className="md:text-lg text-base font-normal pb-5 md:w-2/3 lg:w-1/2">
           Hi, I'm Chetan, a final year CSE student passionate about Java
           Development 🧑‍💻
           I enjoy turning ideas into real-life projects. I am currently seeking
