@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex justify-center mt-5">
+    <header className="flex justify-center sticky top-5 mt-5">
       {location.pathname !== "/" && (
         <Link to="/">
           <img
@@ -75,13 +75,13 @@ const Navbar = () => {
 
       {/* mobile menu */}
       <div className="md:hidden flex items-center flex-col">
-        <div className="mb-2">
+        <div className="bg-white shadow-md pt-1 px-2 rounded-lg">
           <button onClick={handleMenuButton}>
             <FiMenu />
           </button>
         </div>
         {isOpen && (
-          <div className="scale-110 fixed top-12 bg-white shadow-md p-3 rounded-md text-md font-bold">
+          <div className="scale-110 fixed top-16 bg-white shadow-md p-3 rounded-md text-sm font-bold">
             <button
               onClick={() => {
                 handleTabClick("home");
