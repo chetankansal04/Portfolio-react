@@ -83,15 +83,6 @@ const Home = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.instagram.com/chetankansal__/"
-          target="_blank"
-          className="mr-5"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
-        </a>
-        <a
           href="https://x.com/kansalchetan007"
           target="_blank"
           rel="noopener noreferrer"
