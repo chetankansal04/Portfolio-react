@@ -24,10 +24,10 @@ const Project = () => {
         ></Card>
         <Card
           title="Journal Application"
-          content="Developed a Journal management application which enables user profile and journal entry management with secure CRUD operations using Spring Security, ensuring 100% privacy for user data."
+          content="Developed a Journal management application which enables user profile and journal entry management with secure CRUD operations using Spring Security and User friendly Interface using React, ensuring 100% privacy for user data."
           icon={<BsJournal />}
           linktext="Github"
-          urlLink="https://github.com/chetankansal04/journalapp"
+          urlLink="https://journal-app-chetankansal.vercel.app"
         ></Card>
       </div>
     </div>
