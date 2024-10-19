@@ -2,8 +2,8 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="bg-white shadow-lg rounded-lg p-6 max-w-sm mx-auto">
+    <div className="flex justify-center items-center">
+      <div className="bg-white shadow-lg rounded-xl p-6 max-w-sm mx-auto">
         <h2 className="text-2xl font-bold mb-4">Download My Resume</h2>
         <p className="text-gray-700 mb-4">
           Click the button below to download my resume and learn more about my skills and experiences.
