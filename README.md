@@ -1,8 +1,33 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing projects, skills, and contact information, built using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## Features
+
+- A clean, modern UI design built with Tailwind CSS.
+- Responsive and optimized for all devices (mobile, tablet, desktop).
+- Showcases multiple projects with descriptions, technologies, and links to live demos and repositories.
+- Includes an about section to highlight personal skills, achievements, and experience.
+- A contact form to get in touch directly from the portfolio.
+
+## Demo
+
+Check out the live demo of my portfolio: [Live Demo](https://chetankansal-one.vercel.app)
+
+## Technologies Used
+
+- **React** - JavaScript library for building user interfaces.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **EmailJS** - For handling form submissions (optional, if used).
+- **Vercel** (or your hosting platform) - For deployment.
