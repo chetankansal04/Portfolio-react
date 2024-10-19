@@ -21,8 +21,8 @@ const Card = ({
       />
     )}
     <div className="place-self-center mb-5 scale-150">{icon}</div>
-    <h2 className="text-xl font-semibold">{title}</h2>
-    <p className="text-base mb-1 ">{content}</p>
+    <h2 className="text-xl font-semibold mb-1">{title}</h2>
+    <p className="text-base mb-1">{content}</p>
     {field && <p className="text-sm mb-1 ">{field}</p>}
     {coursework && <p className="text-sm mb-1 text-wrap ">{coursework}</p>}
     {year && <p className="text-sm mb-1 ">{year}</p>}
