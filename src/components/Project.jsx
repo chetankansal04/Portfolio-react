@@ -17,14 +17,15 @@ const Project = () => {
       <div className="grid gap-2 md:grid-cols-2">
         <Card
           title="Shopping Cart Application"
-          content="Developed a dynamic shopping cart application using React, enabling users to seamlessly browse, add, update, and remove products from their cart. Implemented CI/CD using Github actions for automatic testing."
+          content="Developed a dynamic shopping cart application using React, enabling users to seamlessly browse, add, update, and remove products from their cart. Implementing Redux Toolkit for state management and responsive design principles with React and Tailwind CSS, ensuring compatibility across 100% of mobile
+and desktop devices."
           icon={<BsCart3 />}
           linktext="Github"
           urlLink="https://github.com/chetankansal04/Shopping-Cart-React"
         ></Card>
         <Card
           title="Journal Application"
-          content="Developed a Journal management application which enables user profile and journal entry management with secure CRUD operations using Spring Security and User friendly Interface using React, ensuring 100% privacy for user data."
+          content="Developed a User authentication based Journal management application with secure CRUD operations using Spring Boot Security and User & Mobile friendly Interface using React and Tailwind CSS, ensuring 100% privacy for user data. Implemented CI/CD using Github actions for automatic testing."
           icon={<BsJournal />}
           linktext="Github"
           urlLink="https://journal-app-chetankansal.vercel.app"
