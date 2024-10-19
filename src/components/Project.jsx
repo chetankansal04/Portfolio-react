@@ -17,7 +17,7 @@ const Project = () => {
       <div className="grid gap-2 md:grid-cols-2">
         <Card
           title="Shopping Cart Application"
-          content="Developed a dynamic shopping cart application using React, enabling users to seamlessly browse, add, update, and remove products from their cart."
+          content="Developed a dynamic shopping cart application using React, enabling users to seamlessly browse, add, update, and remove products from their cart. Implemented CI/CD using Github actions for automatic testing."
           icon={<BsCart3 />}
           linktext="Github"
           urlLink="https://github.com/chetankansal04/Shopping-Cart-React"
